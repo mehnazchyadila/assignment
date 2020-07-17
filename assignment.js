@@ -18,7 +18,7 @@ var result = woodCalculator(10,3,7);
 console.log(result);
 
 // Calculating Total Bricks Need For A Building
-function brickcalculator(floors){
+function brickCalculator(floors){
     if(floors <= 10){
             total = (floors * 15 *1000);
             return total;
@@ -40,7 +40,7 @@ function brickcalculator(floors){
 
 }
 
-var result = brickcalculator(34);
+var result = brickCalculator(10);
 console.log(result);
 
 //Finding Tiny Friend
