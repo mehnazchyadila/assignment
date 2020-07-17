@@ -1,13 +1,14 @@
 //Calculating Feet To Mile 
 
 function feetToMile(feet){
-    var mile = feet / 5280;
+    var miles = feet / 5280;
+    var mile = miles.toFixed(9);
     return(mile);
 }
 var result = feetToMile(3456); 
 console.log(result);
 
-//calculating Total Wood
+//Calculating Total Wood
 function woodCalculator(noOfChair,noOfTable,noOfBed){
     var wood = 1 * noOfChair + 3 * noOfTable + 4 * noOfBed ;
     return wood;
